@@ -1,0 +1,19 @@
+# /etc/sudoers
+#
+# This file MUST be edited with the 'visudo' command as root.
+#
+# Please consider adding local content in /etc/sudoers.d/ instead of
+# directly modifying this file.
+#
+# See the man page for details on how to write a sudoers file.
+#
+Defaults     env_reset
+Defaults     secure_path="/usr/sbin:/usr/bin:/sbin:/bin"
+#
+# Comment to decline members of group wheel to gain root privileges
+%wheel      ALL=(ALL)       ALL
+# Host alias specification
+# User alias specification
+# Cmnd alias specification
+# User privilege specification
+root        ALL=(ALL)       ALL
