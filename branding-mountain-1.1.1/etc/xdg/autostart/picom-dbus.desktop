@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=picom (dbus)
+GenericName=X compositor (dbus)
+Comment=A X compositor with dbus backend enabled
+Categories=Utility;X-SuSE-DesktopUtility;
+Keywords=compositor;composite manager;window effects;transparency;opacity;
+TryExec=picom
+Exec=picom --dbus
+Icon=picom
+OnlyShowIn=LXQt;
+X-LXQt-Module=true
